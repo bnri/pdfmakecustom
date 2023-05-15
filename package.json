@@ -1,6 +1,6 @@
 {
   "name": "@bnri/pdfmake",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "babel": {
     "presets": [
@@ -13,7 +13,7 @@
   "main": "build/pdfmake.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy_npm": "npm version patch && npm publish --access=public" 
+    "deploy_npm": "npm version patch && npm publish --access=public"
   },
   "eslintConfig": {
     "extends": [
