@@ -13,7 +13,7 @@
   "main": "build/pdfmake.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy_npm": "npm version patch && npm publish"
+    "deploy_npm": "npm version patch && npm publish --access=public" 
   },
   "eslintConfig": {
     "extends": [
