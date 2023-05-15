@@ -8,9 +8,12 @@
       "@babel/preset-react"
     ]
   },
+  "files": [
+    "dist/*"
+  ],
   "description": "customfont added",
-  "module": "build/pdfmake.min.js",
-  "main": "build/pdfmake.min.js",
+  "module": "dist/pdfmake.min.js",
+  "main": "dist/pdfmake.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy_npm": "npm version patch && npm publish --access=public"
@@ -34,8 +37,8 @@
     ]
   },
   "keywords": [
-    "react",
-    "pdfviewer"
+    "pdfmake",
+    "react"
   ],
   "author": "guripong",
   "license": "MIT",
@@ -50,7 +53,7 @@
   "engines": {
     "node": ">= 14"
   },
-  "dependencies": {
+  "devDependencies": {
     "pdfmake": "^0.1.71"
   }
 }
