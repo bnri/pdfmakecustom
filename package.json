@@ -1,0 +1,56 @@
+{
+  "name": "@bnri/pdfmake",
+  "version": "1.0.0",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "description": "customfont added",
+  "module": "build/pdfmake.min.js",
+  "main": "build/pdfmake.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_npm": "npm version patch && npm publish"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "pdfviewer"
+  ],
+  "author": "guripong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnri/pdfmakecustom.git"
+  },
+  "peerDependencies": {
+    "react": ">= 17",
+    "react-dom": ">= 17"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "dependencies": {
+    "pdfmake": "^0.1.71"
+  }
+}
